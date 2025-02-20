@@ -1,2 +1,8 @@
 # Painel-de-Login
-Programa de cadastro e login de senha em Java. O usuário pode criar uma senha e fazer login, com até 3 tentativas para cada operação. Caso as tentativas sejam excedidas, o programa será encerrado. A senha deve ser de 6 dígitos para ser válida. O programa permite ao usuário repetir ou encerrar a operação após cada tentativa.
+🔒 O sistema permite que o usuário crie uma senha de 6 dígitos e faça login com até 3 tentativas. Caso o limite seja atingido, o programa encerra automaticamente, mantendo a segurança dos dados.
+
+🎯 Funcionalidades que implementei:
+
+Validação de senha com 6 dígitos e sem caracteres especiais.
+Controle de tentativas de login com feedback direto para o usuário.
+Menu interativo para criar a senha ou fazer login.
