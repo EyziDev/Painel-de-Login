@@ -14,9 +14,9 @@ graph TD
     B --> C[Digite nome de usuário]
     C --> D[Digite senha]
     D --> E{Confirmar senha}
-    E -->|Correta| F[Usuário criado com sucesso]
-    E -->|Errada (3x)| G[Encerrar programa]
-    E -->|Errada (<3x)| D
+    E -->|Senha correta| F[Usuário criado com sucesso]
+    E -->|Senha errada 3 tentativas| G[Encerrar programa]
+    E -->|Senha errada menos de 3 tentativas| D
 
     B --> H[Digite nome de usuário]
     H --> I[Digite senha]
