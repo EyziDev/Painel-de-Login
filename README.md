@@ -11,6 +11,7 @@ Menu interativo para criar a senha ou fazer login.
 graph TD
     A[Início do programa] --> B[Exibir Menu: 1-Criar, 2-Login]
     
+    N --> |1|
     B --> C[Digite nome de usuário]
     C --> D[Digite senha]
     D --> E{Confirmar senha}
