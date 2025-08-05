@@ -9,16 +9,16 @@ Menu interativo para criar a senha ou fazer login.
 
 ```mermaid
 graph TD
-    A[Início do programa] --> B[Exibir Menu: 1-Criar | 2-Login]
+    A[Início do programa] --> B[Exibir Menu: 1-Criar, 2-Login]
     
-    B -->|1| C[Digite nome de usuário]
+    B --> C[Digite nome de usuário]
     C --> D[Digite senha]
     D --> E{Confirmar senha}
     E -->|Correta| F[Usuário criado com sucesso]
     E -->|Errada (3x)| G[Encerrar programa]
     E -->|Errada (<3x)| D
 
-    B -->|2| H[Digite nome de usuário]
+    B --> H[Digite nome de usuário]
     H --> I[Digite senha]
     I --> J{Credenciais corretas?}
     J -->|Sim| K[Login bem-sucedido]
@@ -29,3 +29,4 @@ graph TD
     L --> M
     M -->|Sim| B
     M -->|Não| N[Fim do programa]
+
