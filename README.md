@@ -24,9 +24,8 @@ graph TD
     J -->|Sim| K[Login bem-sucedido]
     J -->|Não| L[Mensagem de erro]
 
-    F --> M[Voltar ao menu? (S/N)]
+    F --> M[Voltar ao menu? S ou N]
     K --> M
     L --> M
     M -->|Sim| B
     M -->|Não| N[Fim do programa]
-
